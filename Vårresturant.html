@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Athu Stays resturant</title>
+    </head>
+    <body>
+    <form action="resturant">
+        <h1>Bordreservasjon</h1>
+
+        <p>Antall gjester: <input type="range" min="1" max="30" value="2" oninput="rangeValue.innerText = this.value" required>
+            <p id="rangeValue">2</p></p>
+        <p>
+            <b>Hvilke retter ønsker du?</b><br>
+            <input type="checkbox">
+            <label for="">steak and fries</label>
+            <br>
+            <input type="checkbox">
+            <label for="">fish and chips</label>
+            <br>
+            <input type="checkbox">
+            <label for="">fried rice with chicken curry</label>
+            <br>
+            <input type="checkbox">
+            <label for="">noodle soup</label>
+            <br>
+            <input type="checkbox">
+            <label for="">200g hambruger</label>
+            <br>
+        </p>
+        <p>
+            <b>Dato:</b>
+            <input type="date" required>
+            <b>Klokkeslett:</b>
+            <input type="time" required>
+            
+        </p>
+        <button>SEND</button>
+    </form>
+    </body>
+</html>
